@@ -1,0 +1,79 @@
+html, body {
+  margin: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: inherit;
+  width: inherit;
+}
+
+#main_div {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: darkcyan;
+}
+
+#interactive_div {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 100%;
+  width: 36%;
+  background-color: darkcyan;
+}
+
+canvas {
+  position: absolute;
+  top: 0%;
+  right: 36%;
+  height: 100%;
+}
+
+textarea {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 550px;
+  height: 180px;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  position: absolute;
+  bottom: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#text_1 {
+  position: absolute;
+  right: 65%;
+  bottom: 80%;
+}
+
+#text_2 {
+  position: absolute;
+  right: 65%;
+  bottom: 45%;
+}
+
+#text_3 {
+  position: absolute;
+  right: 65%;
+  bottom: 10%;
+}
+
+#subject {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
